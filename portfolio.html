@@ -3,45 +3,80 @@
 <head>
   <title>My Basic Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Winfred Sunga</h1>
-  </header>
-  <nav>
-    <h4>About</h4>
-    <h4>Portfolio</h4>
-    <h4>Contact</h4>
-  </nav>
-  <div class="portfolio">
-    <h1>Portfolio</h1>
-    <div>
-      <img src="#" alt="hangMan">  
-      <p>Hang Man</p>
+   <div id="main_container"> 
+    <header>
+      <div class="container_header">
+        <div id="name">Winfred Sunga
+        </div>
+        <nav>
+          <div class="nav index">
+            <a href="index.html">About</a>  
+          </div>
+          <div class="nav portfolio">
+            <a href="portfolio.html">Portfolio</a>  
+          </div>
+          <div class="nav contact">
+            <a href="contact.html">Contact</a>  
+          </div>
+        </nav>
     </div>
-    <div>
-      <img src="#" alt="rpgGame">
-      <p>RPG Game</p>
-    </div>
-    <div>
-     <img src="#" alt="triviaGame"> 
-     <p>Trivia Game</p>
-    </div>
-    <div>
-      <img src="#" alt="rutgersInfoWidget">
-      <p>Rutgers Info Widget</p>
-    </div>
-    <div>
-      <img src="#" alt="rockPaperScissors">
-      <p>ROck Paper Scissors</p>
-    </div>
-  </div>   
-  <div class="connect">
-    <h3>Connect with Me</h3>
-    <img src="#" alt="Github Icon">
-    <img src="#" alt="LinkedIn Icon">
-    <img src="#" alt="Stack Overflow Icon">
+    </header>
+    <div class="container_content">
+      <div class="portfolio_content">
+        <div class="portfolio_content_wrapper">
+          <h1>Portfolio</h1>
+          <hr></hr>
+          <section class="portfolio_section">
+            <div class="portfolio_container" id="portfolio1">
+              <img class="portfolio_img" src="images/circuitboard.jpeg" alt="hangMan">  
+              <p>Hang Man</p>
+            </div>
+            <div class="portfolio_container" id="portfolio2">
+              <img class="portfolio_img" src="images/earphone.jpeg" alt="rpgGame">
+              <p>RPG Game</p>
+            </div>
+          </section>
+          <section class="portfolio_section">  
+            <div class="portfolio_container" id="portfolio3">
+              <img class="portfolio_img" src="images/roll.jpeg" alt="triviaGame"> 
+             <p>Trivia Game</p>
+            </div>
+            <div class="portfolio_container" id="portfolio4">
+              <img class="portfolio_img" src="images/sunsoccer.jpeg" alt="rutgersInfoWidget">
+              <p>Rutgers Info Widget</p>
+            </div>
+          </section>
+          <section class="portfolio_section">  
+            <div class="portfolio_container" id="portfolio5">
+              <img class="portfolio_img" src="images/yellow.jpeg" alt="rockPaperScissors">
+              <p>Rock Paper Scissors</p>
+            </div>
+          </section>
+        </div>
+      </div>      
+    <aside>
+      <div id="connect">
+        <h3>Connect with Me</h3>
+      </div>
+      <div id="social_media">
+        <a href="https://github.com/winfredSunga-jw0226">
+          <img class="social_media_icons" src="images/github.png" alt="Github Icon">
+        </a>
+        <a href="https://www.linkedin.com/in/winfred-sunga-53a50a74/">
+          <img class="social_media_icons" src="images/linkedin.png" alt="LinkedIn Icon">
+        </a>  
+        <a href="https://stackoverflow.com/users/7798806/winfred-s">
+          <img class="social_media_icons"  src="images/stackoverflow.png" alt="Stack Overflow Icon">
+        </a>
+      </div>
+    </aside>  
+     <footer>
+      <div id="footer_div1"></div>
+      <div id="footer_div2">© Copyright 2017 Winfred Sunga</div>
+    </footer>
   </div>  
-  <footer>© Copyright 2017 Winfred Sunga</footer>  
 </body>
 </html>
